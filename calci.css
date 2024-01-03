@@ -6,6 +6,10 @@ body{
     align-items: center;
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
+    background-image: url(https://images2.alphacoders.com/100/1009034.jpg);
+    background-size: 1500px 1500px;
+    background-repeat: no-repeat;
+    
 }
 #calculator{
     font-family: Arial, sans-serif;
@@ -54,4 +58,17 @@ button:active{
 }
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
+}
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    button {
+        width: 50%;
+    }
+}
+
+/* Media Query for Tablets and Laptops */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    button {
+        width: 33.33%;
+    }
 }
