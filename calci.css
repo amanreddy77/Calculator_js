@@ -75,14 +75,7 @@ button:active {
     }
 
     #calculator {
-        width: 90%;
+        width: 100%;
         max-width: none;
-    }
-}
-
-/* Media Query for Tablets and Laptops */
-@media only screen and (min-width: 601px) {
-    #calculator {
-        max-width: 500px; /* Adjust the max-width for larger screens */
     }
 }
